@@ -1,9 +1,9 @@
 # cordova-plugin-push
 
-This is a copy of https://github.com/mapsplugin/cordova-plugin-googlemaps? We modified it to provide iOS 14 support with cordova.
+This is a copy of [https://github.com/havesource/cordova-plugin-push](https://github.com/havesource/cordova-plugin-push)? We modified it to provide iOS 14 support with cordova.
 
 ### Installation
-    cordova plugin add cordova-plugin-googlemaps --save
+    cordova plugin add github:kenfouo/cordova-plugin-push --save
     
 Cordova Plugin Push
 Node CI Codacy Badge
