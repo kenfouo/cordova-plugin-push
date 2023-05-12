@@ -31,5 +31,3 @@ This plugin does not provide a way to determine which platform you are running o
 
 * [PhoneGap Day US Push Workshop 2016 (using node-gcm)](http://macdonst.github.io/push-workshop/)
 
-ontent.com/u/616464?v=4&s=117" width="117">](https://github.com/fredgalvao)[<img alt="bobeast" src="https://avatars0.githubusercontent.com/u/441403?v=4&s=117" width="117">](https://github.com/bobeast)[<img alt="macdonst" src="https://avatars1.githubusercontent.com/u/353180?v=4&s=117" width="117">](https://github.com/macdonst)
-
