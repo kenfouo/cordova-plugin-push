@@ -1,0 +1,68 @@
+{
+  "name": "@havesource/cordova-plugin-push",
+  "version": "4.0.0-dev.0",
+  "description": "Register and receive push notifications.",
+  "scripts": {
+    "build": "babel src/js --out-dir www",
+    "build:watch": "nodemon -w ./src/js -e js -x npm run build",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "jasmine": "jasmine --config=spec/unit.json",
+    "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
+    "test": "npm run build && npm run lint && npm run jasmine"
+  },
+  "repository": "github:havesource/cordova-plugin-push",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-windows",
+    "cordova-browser"
+  ],
+  "author": "Erisu",
+  "license": "MIT",
+  "bugs": "https://github.com/havesource/cordova-plugin-push/issues",
+  "homepage": "https://github.com/havesource/cordova-plugin-push#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "@cordova/eslint-config": "^4.0.0",
+    "babel-plugin-add-header-comment": "^1.0.3",
+    "fs-extra": "^10.0.0",
+    "jasmine": "^3.9.0",
+    "nodemon": "^2.0.12",
+    "nopt": "^5.0.0",
+    "xml2js": "^0.4.23"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">=10.0.0",
+        "cordova-android": ">=9.0.0",
+        "cordova-ios": ">=6.0.0"
+      },
+      "2.0.0": {
+        "cordova": ">=10.0.0",
+        "cordova-android": ">=8.0.0",
+        "cordova-ios": ">=6.0.0"
+      },
+      "1.0.0": {
+        "cordova": ">=10.0.0",
+        "cordova-android": ">=8.0.0",
+        "cordova-ios": ">=5.1.1"
+      }
+    }
+  },
+  "types": "./types/index.d.ts",
+  "cordova": {
+    "id": "@havesource/cordova-plugin-push",
+    "platforms": [
+      "ios",
+      "android",
+      "windows",
+      "browser"
+    ]
+  }
+}
