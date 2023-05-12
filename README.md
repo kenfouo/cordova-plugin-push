@@ -27,7 +27,7 @@ This plugin does not provide a way to determine which platform you are running o
 # Do you like tutorial? You get tutorial!
 
 ## Quick install
-    cordova plugin add github:kenfouo/cordova-plugin-googlemaps --save 
+    cordova plugin add github:kenfouo/cordova-plugin-push --save 
 
 * [PhoneGap Day US Push Workshop 2016 (using node-gcm)](http://macdonst.github.io/push-workshop/)
 
