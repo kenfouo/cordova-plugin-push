@@ -2,6 +2,11 @@
 
 This is a copy of https://github.com/havesource/cordova-plugin-push? We modified it to provide iOS 14 support with cordova. It also fixes the problem of the Obsolete googlemaps SDK for 03 years.
 
+#Contribution
+Hello here is my Email: borientm@gmail.com.
+Our development conditions are not always better here in Africa.
+also, Your sponsorship will be of great use to us. PayPal Link: https://paypal.me/Borientmk?country.x=LS&locale.x=fr_XC
+
 [![Node CI](https://github.com/havesource/cordova-plugin-push/actions/workflows/ci.yml/badge.svg)](https://github.com/havesource/cordova-plugin-push/actions/workflows/ci.yml) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/422c67b5e70c4a0eadae7b9fc794d3c1)](https://app.codacy.com/gh/havesource/cordova-plugin-push?utm_source=github.com&utm_medium=referral&utm_content=havesource/cordova-plugin-push&utm_campaign=Badge_Grade_Settings)
 
 > Register and receive push notifications
