@@ -3,6 +3,7 @@
 This is a copy of https://github.com/havesource/cordova-plugin-push? We modified it to provide iOS 14 support with cordova. It also fixes the problem of the Obsolete googlemaps SDK for 03 years.
 
 #Contribution
+
 Hello here is my Email: borientm@gmail.com.
 Our development conditions are not always better here in Africa.
 also, Your sponsorship will be of great use to us. PayPal Link: https://paypal.me/Borientmk?country.x=LS&locale.x=fr_XC
